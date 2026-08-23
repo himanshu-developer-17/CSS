@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.parent{
+    height: 600px;
+    width: 100%;
+    background-color: bisque;
+    
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+    background-color: aqua;
+
+}
