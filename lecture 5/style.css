@@ -7,13 +7,15 @@
 body{
     height: 100vh;
     width: 100%;
+    /* margin-bottom: 8px; */
 }
 
 .parent{
     height: 600px;
     width: 100%;
     background-color: bisque;
-    
+    margin-bottom: 8px;
+    display: flex;
 }
 .child{
     height: 100px;
@@ -21,7 +23,56 @@ body{
     border-radius: 8px;
     text-align: center;
     align-content: center;
-    display: inline-block;
+    margin: 10px;
     background-color: aqua;
 
 }
+.task-1{
+    justify-content: start;
+    align-items: start;
+}
+.task-2{
+    justify-content: center;
+    align-items: start;
+}
+.task-3{
+    justify-content: end;
+    align-items: start;
+}
+.task-4{
+    justify-content: start;
+    align-items: center;
+}
+.task-5{
+    justify-content: center;
+    align-items: center;
+}
+.task-6{
+    justify-content:end ;
+    align-items: center;
+}
+.task-7{
+    justify-content: start;
+    align-items: end;
+}
+.task-8{
+    justify-content: center;
+    align-items: end;
+}
+.task-9{
+    justify-content: end;
+    align-items: end;
+}
+.task-10{
+    justify-content: end;
+    align-items: start;
+}
+.task-11{
+    justify-content: center;
+    align-items: start;
+}
+.task-12{
+    justify-content: start;
+    align-items: start;
+}
+
