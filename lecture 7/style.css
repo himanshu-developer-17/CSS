@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #111;
+    font-family: sans-serif;
+}
+
+.feed {
+    column-count: 6;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.feed-item {
+
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.feed-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.feed-item img:hover {
+    transform: scale(1.05);
+}
